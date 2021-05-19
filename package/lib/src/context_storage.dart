@@ -73,7 +73,8 @@ class ContextStorage extends StatefulWidget {
   /// ```
   static ContextStorageState? of(BuildContext context, [String? name]) {
     if (name != null) {
-      final InheritedElement? element = context.getElementForInheritedWidgetOfExactType<ContextStorageScope>();
+      final InheritedElement? element = context
+          .getElementForInheritedWidgetOfExactType<ContextStorageScope>();
       if (element != null) {
         final ContextStorageScope scope = element.widget as ContextStorageScope;
         final state = scope.state;
@@ -85,7 +86,8 @@ class ContextStorage extends StatefulWidget {
         return null;
       }
     } else {
-      final InheritedElement? element = context.getElementForInheritedWidgetOfExactType<ContextStorageScope>();
+      final InheritedElement? element = context
+          .getElementForInheritedWidgetOfExactType<ContextStorageScope>();
       if (element != null) {
         final ContextStorageScope scope = element.widget as ContextStorageScope;
         final state = scope.state;

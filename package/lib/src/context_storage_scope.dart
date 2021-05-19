@@ -14,5 +14,6 @@ class ContextStorageScope extends InheritedWidget {
         );
 
   @override
-  bool updateShouldNotify(covariant ContextStorageScope oldWidget) => oldWidget.state != state;
+  bool updateShouldNotify(covariant ContextStorageScope oldWidget) =>
+      oldWidget.state != state;
 }
