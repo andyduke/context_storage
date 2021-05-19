@@ -1,6 +1,6 @@
 name: context_storage
 description: A widget for creating a key-value storage in the widget tree, accessible to child widgets through the InheritedWidget mechanism.
-version: 1.0.0
+version: 1.0.0+1
 author: Andy Chentsov
 homepage: https://github.com/andyduke/context_storage/tree/master/package
 repository: https://github.com/andyduke/context_storage
